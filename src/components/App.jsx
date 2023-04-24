@@ -2,7 +2,7 @@ import user from '../constants/user.json';
 import { Profile } from './Profile';
 
 export const App = () => {
-  // console.log(user);
+  console.log(user);
   return (
     <div>
       <Profile
