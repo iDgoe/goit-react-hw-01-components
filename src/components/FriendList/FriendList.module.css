@@ -1,0 +1,36 @@
+.friends {
+    width: 300px;
+  }
+  
+  .friends__list {
+    width: inherit;
+    padding: 11;
+  }
+  .friends__item {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px grey;
+    padding: 15px;
+  }
+  
+  .friends__status {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .true {
+    background-color: green;
+  }
+  .false {
+    background-color: red;
+  }
+  
+  .avatar {
+    width: 77px;
+    margin-right: 10px;
+  }
+  .friends__name {
+    font-weight: 500;
+    font-size: 30px;
+  }

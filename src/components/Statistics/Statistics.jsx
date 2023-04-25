@@ -11,7 +11,7 @@ const newColor = () => {
       ',' +
       Math.round(Math.random() * 255) +
       ',' +
-      0.5 +
+      0.7 +
       ')';
   return color;
 };

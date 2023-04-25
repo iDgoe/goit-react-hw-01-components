@@ -1,0 +1,16 @@
+.table {
+    box-shadow: 0 0 5px #ccccceee;
+    width: 400px;
+    border-spacing: 0;
+  }
+.thead_tr {
+    margin-bottom: 5px;
+    padding: 10px;
+
+  }
+  .tbody_tr {
+    font-weight: 400;
+    font-size: 22px;
+    
+  }
+
