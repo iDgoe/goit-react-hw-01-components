@@ -1,5 +1,5 @@
 import css from './Ststistics.module.css';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 
 const newColor = () => {
@@ -39,7 +39,19 @@ const newColor = () => {
         );
       };
       
-      Statistics.propTypes = {
-        title: propTypes.string.isRequired,
-        stats: propTypes.number.isRequired,
+    //   Statistics.propTypes = {
+    //     title: propTypes.string,
+    //     // stats: propTypes.number.isRequired,
+    //     stats: propTypes.exact({followers: propTypes.string, views: propTypes.string, likes: propTypes.number})
+    //   };
+
+    Statistics.propTypes = {
+        title: PropTypes.string,
+        stats: PropTypes.arrayOf(
+          PropTypes.shape({
+            id: PropTypes.string.isRequired,
+            label: PropTypes.string.isRequired,
+            percentage: PropTypes.number.isRequired,
+          }),
+        ),
       };
