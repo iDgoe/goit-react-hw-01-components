@@ -40,6 +40,6 @@ const newColor = () => {
       };
       
       Statistics.propTypes = {
-        label: propTypes.string.isRequired,
-        percentage: propTypes.number.isRequired,
+        title: propTypes.string.isRequired,
+        stats: propTypes.number.isRequired,
       };
